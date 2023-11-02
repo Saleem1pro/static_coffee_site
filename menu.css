@@ -1,0 +1,91 @@
+/* style sheet for Example Cafe */
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+    background-color: cornsilk;
+}
+
+h2 {font-family: Georgia, Times, serif;
+    color:#666666;
+    text-align: center;
+    }
+
+p{
+    font-size:90%;
+    color:#333333;
+}
+#navigation>a{
+    color: lightblue;
+    margin-right: 1%;
+}
+
+#container{
+    margin: 5px;
+    border: 5px solid darkgray;
+    padding: 5px;
+    margin-top: 6px darkgray;
+    margin-bottom: 6px darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    height: auto;
+    width: 600px;
+    border: 1px black solid;
+    margin:0px 10px 0px 10px;
+}
+
+.display{
+    display: inline-flex;
+}
+
+.display2{
+    display: vertical;
+    
+}
+
+.display2>img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.display2{
+    display: vertical;
+
+}
+
+body *{
+    margin: 5px;
+    padding: 5px;    
+}
+
+h3{
+    border-bottom: double;
+}
+
+h3:hover{
+    color: red;
+}
+
+h4{
+    text-align: center;
+    border: black double;
+    border-radius: 15px;
+}
+
+.display2>p{
+    text-align: center;
+    border-bottom: 1px black dashed;
+}
+
+h1{
+    text-align: center;
+}
+
+#navigation{
+    border: double black 1px;
+    border-radius: 14px;
+    border-width: initial;
+}

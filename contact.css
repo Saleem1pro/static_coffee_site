@@ -1,0 +1,32 @@
+fieldset{
+    border-radius: 20px;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+#navigation>a{
+    color:darkseagreen;
+    margin-right: 1%;
+}
+
+h2{
+    border: dashed;
+    text-align: center;
+}
+
+
+html{
+    border: 4px solid goldenrod;
+    border-radius: 20px;
+    margin: 8px;
+    padding: 8px;
+    background-color:bisque;
+}
+
+form{
+    display:block;
+    border: double black 2.5px;
+    border-radius: 13px;
+    margin: 5px;
+}

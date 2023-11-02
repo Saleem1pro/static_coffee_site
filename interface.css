@@ -1,0 +1,44 @@
+/* style sheet for Example Cafe */
+
+body{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h2 {font-family: Georgia, Times, serif;
+    color:#666666;}
+
+p{
+    font-size:90%;
+    color:#333333;
+}
+#navigation>a{
+    color: lightblue;
+    margin-right: 1%;
+}
+
+#container{
+    margin: 5px;
+    border: 5px solid darkgray;
+    padding: 5px;
+    margin-top: 6px darkgray;
+    margin-bottom: 6px darkgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    height: auto;
+    width: 600px;
+    border: 1px black solid;
+    margin:0px 10px 0px 10px;
+}
+
+.display{
+    display: inline-flex;
+}
+
+.display2{
+    display: vertical;
+    
+}
+
